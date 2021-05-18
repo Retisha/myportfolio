@@ -1,0 +1,83 @@
+h1 {
+  color: rgb(20, 221, 63);
+  border: solid;
+}
+
+.header {
+  background-color: rgb(129, 6, 6);
+  display: flex;
+  border: solid;
+  justify-content: space-between;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: black;
+  justify-content: center;
+  background-color: rgb(78, 150, 20);
+  padding: 20px;
+  flex: 1;
+}
+.grid img {
+  width: 250px;
+  height: 200px;
+  object-fit: fill;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: black;
+}
+.item {
+  background-color: rgb(207, 91, 111);
+  border-radius: 30px;
+  border-style: solid;
+  padding: 20px;
+  margin: 10px;
+}
+.footer {
+  display: flex;
+  justify-content: flex-end;
+}
+.item p {
+  font-weight: bold;
+  border-style: dotted;
+}
+p,
+h2 {
+  text-align: center;
+  font-size: large;
+}
+body {
+  font-size: medium;
+  background: lightpink;
+  font-style: oblique;
+}
+em {
+  color: rgb(215, 230, 14);
+  background-color: rgb(0, 0, 0);
+  font-size: xx-large;
+}
+a {
+  color: brown;
+  font-size: larger;
+}
+a.about {
+  color: yellow;
+  font-size: x-large;
+}
+
+a:hover {
+  color: purple;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container > div > img {
+  object-fit: contain;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+}
